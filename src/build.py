@@ -277,7 +277,7 @@ def clean_path(path):
             path_items["parent_url"] = path_items["folder"] + ".html"
             path_items["parent_text"] = path_items["folder"].replace("-", " ").capitalize()
         else:
-            path_items["parent_url"] = path_items["folder"] + "/"
+            path_items["parent_url"] = path_items["folder"]
             path_items["parent_text"] = path_items["folder"].replace("-", " ").capitalize()
 
 
